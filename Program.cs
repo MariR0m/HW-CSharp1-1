@@ -15,10 +15,12 @@ double b = Convert.ToDouble(Console.ReadLine());
 if (a > b)
 {
     Console.WriteLine("max = " + a);
+    Console.WriteLine("min = " + b);
 }
 else if (a < b)
 {
     Console.WriteLine("max = " + b);
+    Console.WriteLine("min = " + a);
 }
 else
 {
